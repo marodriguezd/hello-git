@@ -6,14 +6,34 @@
 
 - `winget install --id Git.Git -e --source winget`: El comando necesario para instalar de una Git en Windows.
 
-## Comandos básicos
+## Configuración de Git
 
-Aquí puedes agregar los comandos básicos de Git que vayas aprendiendo:
+Comandos de configuración de Git por orden de aparición en el curso, previamente estar en la ruta del proyecto:
 
-- `git --version`: Muestra la versión instalada de Git.
-- `git config --global user.name "marodriguezd"`: Para configurar el name del usuario del proyecto en el PC.
-- `git config --global user.email "migueadali@gmail.com"`: Para configurar el email del usuario del proyecto en el PC.
-- `git init`: Inicializa un nuevo repositorio Git.
+- `git config`: Es para establecer la configuración de git.
+- `git config --global`: De esta forma establecemos la configuración a nivel global dentro del equipo.
+- `git config --global user.name "NombreUsuario"`: De esta forma configuramos el nombre de usuario.
+- `git config --global user.email "emailUsuario@host.com"`: De esta forma configuramos el email del usuario.
+
+## "git init"
+
+Comando de inicialización de Git en la ruta deseada:
+
+- `git init`: Inicializa un nuevo repositorio Git en el directorio actual. Nos crea una ruta .git donde declara que todo está bien.
+
+## Ramas en Git
+
+Por defecto la rama principal se llama master, pero es recomendable cambiarla para quitar la connotación negativa:
+
+- `git branch -m main`: Esto renombra la rama actual a "main".
+
+## "git add" y "git commit"
+
+Comandos para ir usando ya de forma básica Git:
+
+- `git status`: Con esto podemos ver el estado actual de nuestro proyecto.
+- `git add fichero.extensión`: Añade el archivo deseado al Git versionándolo.
+
 - `git branch -m main`: Este comando cambiará el nombre de la rama actual a "main".
 - `git commit -m "mensaje"`: El "mensaje" es lo que queremos que describa al commit que vamos a mandar.
 - `git add ./<archivo>.<tipo>`: Agrega el archivo "./<arhivo>.<tipo>" ó "./<carpeta>/" al área de preparación.
