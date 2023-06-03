@@ -33,6 +33,35 @@ Comandos para ir usando ya de forma básica Git:
 
 - `git status`: Con esto podemos ver el estado actual de nuestro proyecto.
 - `git add fichero.extensión`: Añade el archivo deseado al Git versionándolo.
+- `git commit`: Es para lanzar la "fotografía" del estado, es decir actualizar todo lo que haya hasta ahora.
+- `git commit -m "mensaje"`: Para pasarle directamente el mensaje deseado al commit.
+
+## "git log" y "git status"
+
+Comandos para ver los estados y registros del repositorio:
+
+- `git log`: Muestra todos los commits hechos con mucha cantidad de datos.
+- `git status`: Con esto podemos ver el estado actual de nuestro proyecto.
+
+# "git checkout" y "git reset"
+
+Comandos para gestionar y moverse por versiones:
+
+- `git checkout`: Es para devolver la rama a una versión anterior o moverse entre diferentes ramas.
+- `git checkout fichero.extension`: Es para devolver el archivo a su última versión comiteada.
+- `git reset`: Para volver hacia atrás a la "última fotografía".
+- `git log --graph --decorate --all --oneline`: Este comando muestra el historial de commits en una representación gráfica.
+
+## "git alias"
+
+Para facilitar el uso de comandos largos con un alias:
+
+- `git config --global alias.nombre "comando"`: Ponerle el nombre deseado al alias y el comando entero.
+- `git config --global alias.tree "log --graph --decorate --all --oneline"`: Este comando crea un alias global llamado "tree" que muestra el historial de commits en formato gráfico.
+
+## Fichero .gitignore
+
+- `touch .gitignore`: No es un comando nativo de Git. Sino que para crear el fichero y así rellenamos los ficheros que no queremos que sean vistos por el Git. La forma de rellenarlo es: **./nombreArchivoODirectorio.
 
 - `git branch -m main`: Este comando cambiará el nombre de la rama actual a "main".
 - `git commit -m "mensaje"`: El "mensaje" es lo que queremos que describa al commit que vamos a mandar.
