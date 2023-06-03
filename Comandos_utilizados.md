@@ -63,6 +63,16 @@ Para facilitar el uso de comandos largos con un alias:
 
 - `touch .gitignore`: No es un comando nativo de Git. Sino que para crear el fichero y así rellenamos los ficheros que no queremos que sean vistos por el Git. La forma de rellenarlo es: **./nombreArchivoODirectorio.
 
+## "git diff"
+
+
+
+### Si sufro de detached
+
+1. Run `git branch tmp` - this will save your changes in a new branch called tmp.
+2. Run `git checkout master`.
+3. If you would like to incorporate the changes you made into master, run `git merge tmp` from the master branch. You should be on the master branch after running git checkout master.
+
 - `git branch -m main`: Este comando cambiará el nombre de la rama actual a "main".
 - `git commit -m "mensaje"`: El "mensaje" es lo que queremos que describa al commit que vamos a mandar.
 - `git add ./<archivo>.<tipo>`: Agrega el archivo "./<arhivo>.<tipo>" ó "./<carpeta>/" al área de preparación.
