@@ -72,7 +72,7 @@ Para facilitar el uso de comandos largos con un alias:
 - `git checkout`: Para moverte entre ramas pero no guarda lo actual.
 - `git checkout fichero.extensión`: Resetea el fichero a como estuviera en la rama anterior.
 - `git checkout hash`: Permite moverte entre distintas ramas haciendo uso del hash.
-- `git checkout HEAD`: Nos mueve a la rama que establecimos como la cabeza del proyecto por ejemplo.
+- `git checkout main`: Nos mueve a la rama que establecimos como la cabeza del proyecto por ejemplo. Jugando un poco se entiende
 
 ### Si sufro de detached
 
@@ -80,20 +80,7 @@ Para facilitar el uso de comandos largos con un alias:
 2. Run `git checkout master`.
 3. If you would like to incorporate the changes you made into master, run `git merge tmp` from the master branch. You should be on the master branch after running git checkout master.
 
-- `git branch -m main`: Este comando cambiará el nombre de la rama actual a "main".
-- `git commit -m "mensaje"`: El "mensaje" es lo que queremos que describa al commit que vamos a mandar.
-- `git add ./<archivo>.<tipo>`: Agrega el archivo "./<arhivo>.<tipo>" ó "./<carpeta>/" al área de preparación.
-- `git checkout .\<archivo>.<tipo>`: Este comando deshace los cambios realizados en el archivo "./<arhivo>.<tipo>" y lo restaura a su estado anterior en el repositorio. También se puede usar el hash, o nombre como HEAD o main, o acorte final del hash.
-- `git reset`: Este comando se utiliza para deshacer cambios en el historial de commits en Git.
-- `git log --graph --decorate --all --oneline`: Este comando muestra el historial de commits en una representación gráfica.
-- `git config --global alias.tree "log --graph --decorate --all --oneline"`: Este comando crea un alias global llamado "tree" que muestra el historial de commits en formato gráfico.
-- `git diff`: Este comando muestra las diferencias entre los cambios sin confirmar en el área de preparación y la versión actual de los archivos en el directorio de trabajo.
-- `git status`: Este comando muestra el estado actual del repositorio de Git.
-- `git tree`: No es un comando nativo de Git. `git config --global alias.tree "log --graph --decorate --all --oneline"`
-
-- `git clone [url]`: Clona un repositorio existente en tu máquina local.
-- `git add [archivo]`: Agrega un archivo específico al área de preparación.
-- `git commit -m "mensaje"`: Realiza un commit con un mensaje descriptivo.
+## "git reset --hard" y "git reflog"
 
 ## Configuraciones
 
