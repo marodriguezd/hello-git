@@ -89,6 +89,13 @@ Para facilitar el uso de comandos largos con un alias:
 
 - `git tag etiqueta_asi_puesta`: Por ejemplo para etiquetar todos los commits hechos el mismo día.
 - `git add .`: Añade al área de stage todo lo que haya pendiente.
+- `git tag`: Nos muestra todos los tags creados en el repositorio.
+- `git checkout tags/nombre_tag`: Nos mueve al commit con esa tag al igual que si usáramos cualquier otro id.
+
+## "git branch" y "git switch"
+
+- `git branch nombreRama`: Para crear una rama paralela
+- `git switch nombreRama`: Para cambiarme entre la rama actual y la destino.
 
 ## Configuraciones
 
