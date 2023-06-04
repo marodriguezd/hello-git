@@ -87,7 +87,8 @@ Para facilitar el uso de comandos largos con un alias:
 
 ## "git tag"
 
-
+- `git tag etiqueta_asi_puesta`: Por ejemplo para etiquetar todos los commits hechos el mismo día.
+- `git add .`: Añade al área de stage todo lo que haya pendiente.
 
 ## Configuraciones
 
