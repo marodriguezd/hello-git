@@ -97,6 +97,10 @@ Para facilitar el uso de comandos largos con un alias:
 - `git branch nombreRama`: Para crear una rama paralela
 - `git switch nombreRama`: Para cambiarme entre la rama actual y la destino.
 
+Lo que se hace en una rama se queda en esa rama, solo se comparte el punto de partida.
+
+## "git merge"
+
 ## Configuraciones
 
 Puedes añadir aquí las configuraciones de Git que quieras recordar:
