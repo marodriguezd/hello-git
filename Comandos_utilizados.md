@@ -65,7 +65,14 @@ Para facilitar el uso de comandos largos con un alias:
 
 ## "git diff"
 
+- `git diff`: Para comparar el último commit con los cambios efectuados hasta ahora.
 
+## Desplazamiento en una rama
+
+- `git checkout`: Para moverte entre ramas pero no guarda lo actual.
+- `git checkout fichero.extensión`: Resetea el fichero a como estuviera en la rama anterior.
+- `git checkout hash`: Permite moverte entre distintas ramas haciendo uso del hash.
+- `git checkout HEAD`: Nos mueve a la rama que establecimos como la cabeza del proyecto por ejemplo.
 
 ### Si sufro de detached
 
