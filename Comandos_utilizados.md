@@ -82,6 +82,13 @@ Para facilitar el uso de comandos largos con un alias:
 
 ## "git reset --hard" y "git reflog"
 
+- `git reset --hard id`: Para cagadas gordas y hacer un rollback del copón poniendo el ID de a dónde queremos dirigirnos. Pudiendo volver a hacerse añadiendo el id deseado incluso si se ha borrado tras una cagada ese, haciendo uso del comando de abajo.
+- `git reflog`: Nos muestra un log que es un historial completo de todo lo que se haya hecho.
+
+## "git tag"
+
+
+
 ## Configuraciones
 
 Puedes añadir aquí las configuraciones de Git que quieras recordar:
