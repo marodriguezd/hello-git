@@ -107,6 +107,11 @@ Lo que se hace en una rama se queda en esa rama, solo se comparte el punto de pa
 
 - `git merge nombreRama`: En caso de cagarla duro desde el editor te deja elegir con cuál versión de los ficheros entre ramas te quieres quedar y puedes jugar con checkouts en caso de necesitar recuperar cosas o lo que sea mergeando luego en la rama principal, aunque tengas que copiar, pegar fuera y reinsertar en el peor de los casos.
 
+## "git stash"
+
+- `git stash`: Para almacenar temporalmente de cara a cambiarnos entre ramas sin hacer un commit, ya que este solo debe hacerse de código que funciona.
+- `git stash list`: Me muestra la lista de los stash existentes en el branch.
+
 ## Configuraciones
 
 Puedes añadir aquí las configuraciones de Git que quieras recordar:
