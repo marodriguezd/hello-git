@@ -110,7 +110,9 @@ Lo que se hace en una rama se queda en esa rama, solo se comparte el punto de pa
 ## "git stash"
 
 - `git stash`: Para almacenar temporalmente de cara a cambiarnos entre ramas sin hacer un commit, ya que este solo debe hacerse de código que funciona.
-- `git stash list`: Me muestra la lista de los stash existentes en todo el proyecto, independientemente del branch en el que estés.
+- `git stash list`: Me muestra la lista de los stash existentes en todo el proyecto, independientemente del branch en el que estés. 
+- `git stash pop`: Recupera todo lo que esté guardado en el stash. 
+- `git stash drop`: En caso de querer eliminar el stash guardado porque realmente no nos interese.
 
 ## Configuraciones
 
