@@ -101,6 +101,8 @@ Lo que se hace en una rama se queda en esa rama, solo se comparte el punto de pa
 
 ## "git merge"
 
+- `git merge nombreRama`: Es para combinar las ramas/cambios para implementarlos juntos. Es mergear con la rama que queremos absorver.
+
 ## Configuraciones
 
 Puedes añadir aquí las configuraciones de Git que quieras recordar:
