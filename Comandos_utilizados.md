@@ -1,4 +1,4 @@
-# Placeholder para comandos y configuraciones de Git
+# Comandos y configuraciones de Git
 
 ---
 
@@ -122,8 +122,15 @@ Lo que se hace en una rama se queda en esa rama, solo se comparte el punto de pa
 ## Eliminación de ramas en Git
 
 - `git branch -d nombreRama`: Con esto te cargas y destruyes la rama que ya no se va a utilizar más.
+- `git branch`: Con esto podemos ver todas las ramas que existen.
 
-## Configuraciones
+# Comandos y configuraciones de GitHub
+
+---
+
+
+
+### Configuraciones
 
 Puedes añadir aquí las configuraciones de Git que quieras recordar:
 
