@@ -105,7 +105,7 @@ Lo que se hace en una rama se queda en esa rama, solo se comparte el punto de pa
 
 ## Resolución de conflictos en Git
 
-
+- `git merge nombreRama`: En caso de cagarla duro desde el editor te deja elegir con cuál versión de los ficheros entre ramas te quieres quedar y puedes jugar con checkouts en caso de necesitar recuperar cosas o lo que sea mergeando luego en la rama principal, aunque tengas que copiar, pegar fuera y reinsertar en el peor de los casos.
 
 ## Configuraciones
 
