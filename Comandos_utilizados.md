@@ -114,6 +114,15 @@ Lo que se hace en una rama se queda en esa rama, solo se comparte el punto de pa
 - `git stash pop`: Recupera todo lo que esté guardado en el stash. 
 - `git stash drop`: En caso de querer eliminar el stash guardado porque realmente no nos interese.
 
+## Reintegración de ramas en Git
+
+- `git diff ramaDeseadaAComparar`: Para comprobar diferencias entre tu rama actual y la objetivo a mergear con la main por ejemplo.
+- `git merge ramaAMergear`: Como hemos visto antes, por ejemplo para traerse las cosas de la rama login al main.
+
+## Eliminación de ramas en Git
+
+- `git branch -d nombreRama`: Con esto te cargas y destruyes la rama que ya no se va a utilizar más.
+
 ## Configuraciones
 
 Puedes añadir aquí las configuraciones de Git que quieras recordar:
