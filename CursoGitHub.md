@@ -57,4 +57,15 @@ Vamos a crear en nuestro GitHub un repositorio con el mismo que tengamos en loca
 ## Subida de un proyecto a GitHub
 
 Podemos crearle un readme básico por si alguien más trabaja con ello. Tomando de ejemplo que este lo haya subido el otro desarrollador.
-Y nosotros seguimos modificando en nuestro local .
+Y nosotros seguimos modificando en nuestro local.
+Guardamos las cosas como siempre en local con sus commits y cosas para luego hacer el push. Además todos los commits que hayamos hecho en local se sincronizarán en GitHub.
+- `git push`: Esto dará un pete ya que ha sido modificada la pública y no lo tenemos en la local. Si no hay modificaciones irá de una porque ya está conectada.
+
+## "git fetch" y "git pull"
+
+- `git fetch`: Se descarga el historial de cambios pero sin descargarse los cambios. Pudiendo ver así los problemas.
+- `git pull`: Se descarga el historial y los cambios. Si no tienes ramas adicionales no daría ningún problema aparentemente.
+Por si acaso podemos poner que por defecto lo que deseamos si hay algún problema más allá es hacer un merge.
+- `git config pull.rebase false`: Para cambiar la acción por defecto
+
+### Hasta aquí podemos trabajar con el local y hasta cierto punto con el público
