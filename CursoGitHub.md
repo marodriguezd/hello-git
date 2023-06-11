@@ -49,4 +49,12 @@ Vamos a crear en nuestro GitHub un repositorio con el mismo que tengamos en loca
 
 ## Git remote
 
-- `git remote add origin https://github.com/marodriguezd/hello-git.git`: Lanzamos esto en la ruta del proyecto.
+- `git remote add origin https://github.com/marodriguezd/hello-git.git`: Lanzamos esto en la ruta del proyecto. Emparejando nuestro local al público.
+- `git push`: Para hacer la subida del local a la nube pero.
+- `git push origin`: Ya que donde nos encontramos es el origen ahora mismo, el punto final del repositorio. Pero como hemos hecho bien y llamada a la rama principal main. El comando completo recomendado es:
+- `git push -u origin main`: Para subir todo al repositorio de GitHub. Aceptamos si nos pide autorizar la primera vez desde el navegador por ejemplo con la cuenta de GitHub.
+
+## Subida de un proyecto a GitHub
+
+Podemos crearle un readme básico por si alguien más trabaja con ello. Tomando de ejemplo que este lo haya subido el otro desarrollador.
+Y nosotros seguimos modificando en nuestro local .
