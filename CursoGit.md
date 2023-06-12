@@ -134,7 +134,7 @@ Puedes añadir aquí las configuraciones de Git que quieras recordar:
 	process = git-lfs filter-process
 	required = true
 [user]
-	name = marodriguezd
-	email = migueadali@gmail.com
+	name = usuario
+	email = usuario@host.terminación
 [alias]
 	tree = log --graph --decorate --all --oneline

@@ -29,13 +29,12 @@ Si falla:
 - `Get-Service ssh-agent | Select StartType`: Si esto sale Disabled.
 - `Get-Service -Name ssh-agent | Set-Service -StartupType Manual`: Poner esto como administrador.
 - `ssh-agent -s`: Si esto no muestra nada:
-- 
 
 Si no existe un fichero de configuración habría que crearlo:
 - `touch config`: Para crearlo en el directorio y rellenarlo con: Host *.github.com
 	AddKeysToAgent yes
 	IdentityFile ~/.ssh/id_rsa
-- `ssh-add 'C:\Users\Miguel Angel\.ssh\id_rsa'`: Para añadir la clave al ssh agent.
+- `ssh-add 'C:\Users\tu_usuario\.ssh\id_rsa'`: Para añadir la clave al ssh agent.
 
 Conexión con GitHub:
 Vamos a settings dentro de nuestro perfil, nos vamos a SSH y GPG keys, creamos una clave nueva ssh, abrimos nuestra clave .pub con editor de texto, copiamos su contenido y lo añadimos al creador de GitHub, 
@@ -49,7 +48,7 @@ Vamos a crear en nuestro GitHub un repositorio con el mismo que tengamos en loca
 
 ## Git remote
 
-- `git remote add origin https://github.com/marodriguezd/hello-git.git`: Lanzamos esto en la ruta del proyecto. Emparejando nuestro local al público.
+- `git remote add origin https://github.com/tu_usuario/hello-git.git`: Lanzamos esto en la ruta del proyecto. Emparejando nuestro local al público.
 - `git push`: Para hacer la subida del local a la nube pero.
 - `git push origin`: Ya que donde nos encontramos es el origen ahora mismo, el punto final del repositorio. Pero como hemos hecho bien y llamada a la rama principal main. El comando completo recomendado es:
 - `git push -u origin main`: Para subir todo al repositorio de GitHub. Aceptamos si nos pide autorizar la primera vez desde el navegador por ejemplo con la cuenta de GitHub.
@@ -76,7 +75,7 @@ Por si acaso podemos poner que por defecto lo que deseamos si hay algún problem
 
 - `cd Desktop`: Para ir al Escritorio desde la terminal.
 - `git clone url`: Para clonar el repositorio ahí directamente, usando de ejemplo.
-- `git clone git@github.com:marodriguezd/hello-git.git`: Haciéndolo de esta forma nos crearía una carpeta con el mismo nombre del repositorio.
+- `git clone git@github.com:tu_usuario/hello-git.git`: Haciéndolo de esta forma nos crearía una carpeta con el mismo nombre del repositorio.
 
 ## "git push"
 
@@ -86,7 +85,7 @@ Por si acaso podemos poner que por defecto lo que deseamos si hay algún problem
 
 Por ejemplo es clonando un repositorio que ya existe usándolo de base, trabajar encima de este añadiéndolo a un repositorio idéntico en nuestro GitHub. En resumen es un clon del repositorio original pero en nuestro repositorio. Pudiendo copiar todos los branchs que deseemos. El forkeo se hace desde el propio GitHub. Y es de este fork del que debemos hacer el git clone.
 
-- `git clone git@github.com:marodriguezd/hello-git-mouredev.git`: Aquí estamos haciendo de ejemplo que hemos forkeado el hello-git de mouredev a nuestro perfil/repo de GitHub, y es ese mismo el que hemos clonado en local.
+- `git clone git@github.com:tu_usuario/hello-git-mouredev.git`: Aquí estamos haciendo de ejemplo que hemos forkeado el hello-git de mouredev a nuestro perfil/repo de GitHub, y es ese mismo el que hemos clonado en local.
 
 ## Flujo colaborativo en GitHub
 
@@ -115,3 +114,8 @@ Esto es bastante importante.
 Desde el propio GitHub puedes sincronizar el fork comparando para ver lo cambios y en qué te afectaría o actualizando el branch directamente.
 
 ## Markdown en GitHub
+
+Vital tanto para la página de presentación de GitHub (la cual ya tengo bien pana) o como documentaciones.
+
+## Herramientas gráficas (GUI) para Git y GitHub
+
