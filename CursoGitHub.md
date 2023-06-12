@@ -103,3 +103,6 @@ Desde GitHub nos deja sincronizar el fork con el original por si el dueño legí
 Desde GitHub, en nuestro fork podemos hacer una Pull Request, dando en Contribute y open pull request. Hemos hecho el envío del PR poniendo título y texto.
 El que recibe el PR puede hacer review de los cambios commentando, aprobando o pidiendo cambios. Siendo el base approve con un comentario.
 Debiendo luego la persona que mantiene el repositorio hacer merge al pull request. Primero lo aprueba y acepta y luego hace el merge para añadir las modificaciones al repositorio original.
+
+## Resolución de conlfictos en Pull Request
+
