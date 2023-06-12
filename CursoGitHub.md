@@ -160,3 +160,6 @@ Dará un error a la hora de hacer el clone, antes de ello:
 - `git config --global url.https://github.com/.insteadOf git://github.com/`: Con esto se arregla el error y conecta fino.
 Luego simplemente siguiendo lo que dice el gist va todo fino, siendo sí o sí cmd en admin para lo último.
 
+- `git flow init`: Ponemos esto en la ruta donde tenemos el Git, para simplemente arrancarlo dejando todo por defecto.
+De ejemplo vamos a crear un flow sobre la feature de prueba que vamos a implementar.
+- `git flow start feature 2auth`: El 2auth es un ejemplo de cómo vamos a llamar a la implementación.
