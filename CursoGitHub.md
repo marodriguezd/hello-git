@@ -155,3 +155,8 @@ Pero el proyecto como tal se va evolucionando en ramas feature. Es decir que cad
 
 ## Ejemplo Gitflow
 
+[Instalación de GitFlow en Windows](https://gist.github.com/geedelur/3208244)
+Dará un error a la hora de hacer el clone, antes de ello:
+- `git config --global url.https://github.com/.insteadOf git://github.com/`: Con esto se arregla el error y conecta fino.
+Luego simplemente siguiendo lo que dice el gist va todo fino, siendo sí o sí cmd en admin para lo último.
+
