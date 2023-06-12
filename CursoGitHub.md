@@ -80,3 +80,4 @@ Por si acaso podemos poner que por defecto lo que deseamos si hay algún problem
 
 ## "git push"
 
+- `git push`: Tras haber sincronizado todo en local con el git pull, etc. Para subirlo al repo
