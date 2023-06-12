@@ -69,3 +69,14 @@ Por si acaso podemos poner que por defecto lo que deseamos si hay algún problem
 - `git config pull.rebase false`: Para cambiar la acción por defecto
 
 ### Hasta aquí podemos trabajar con el local y hasta cierto punto con el público
+
+## "git clone"
+
+Útil por ejemplo para añadir un nuevo miembro al equipo y que se baje todo lo que haya en el repositorio o ir a otro ordenador. Siendo recomendable bajarlo por SSH. Por ejemplo siendo
+
+- `cd Desktop`: Para ir al Escritorio desde la terminal.
+- `git clone url`: Para clonar el repositorio ahí directamente, usando de ejemplo.
+- `git clone git@github.com:marodriguezd/hello-git.git`: Haciéndolo de esta forma nos crearía una carpeta con el mismo nombre del repositorio.
+
+## "git push"
+
