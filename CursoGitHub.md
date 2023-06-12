@@ -168,3 +168,7 @@ Esto nos dará error, ya que el orden es muy importante.
 Creamos cosas y probamos en esa rama/feature. Una vez hechas todas las cosas con sus add, commit -m, etc. Vendría la hora de cerrarla y mergearla.
 - `git flow feature finish 2auth`: Esto directamente desencadena todo el flujo prestablecido de git flow. Para cerrar la rama y volcarla sobre develop.
 Todo esto también se puede hacer sobre interfaz gráfica como con la herramienta de Source Tree. Y todo esto es lo mismo que pasaría con los hotfixes y con los releases.
+- `git flow release start 1.0`: Importante poner el nombre de la versión, 1.0 en este caso.
+- `git flow release finish 1.0`: Lo mismo que con feature.
+
+## "git cherry-pick" y "git rebase
