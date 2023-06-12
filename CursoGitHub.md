@@ -138,3 +138,20 @@ Siendo esta otra herramienta muy buena también. Pero por lo que he visto tiene 
 
 ## Git y GitHub "flow"
 
+[GitFlow](https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow)
+Recomendable ver todas estas explicaciones de esta página directamente, ya que es de donde está saliendo la siguiente información junto al curso.
+
+Los flujos de trabajo son para cuando por ejemplo hay desarrollos en varias ramas pero hay un fallo en producción, poder arreglar eso y entiendo que propagar el parche al resto. Pero sea como fuere lo recomendable es siempre seguir cierto orden.
+
+Digamos que la rama develop es la que debería poder llegar a producción y la rama main la que versiona. Depositando en develop solamente aquello que sepamos que funciona al 100% y siendo main la que va gestionando las versiones. Teniendo main solamente los puntos en los que se considera una versión "estable" la de develop, siendo la foto que se sube a producción, la de develop en main.
+
+- `main`: Solo para lo que pasa a producción y taggear.
+- `develop`: Donde se va volcando todo lo que se va haciendo en el proyecto. Y lo que está aquí es lo que puede pasar a producción.
+Pero el proyecto como tal se va evolucionando en ramas feature. Es decir que cada implementación N debe ser una rama que nazca de develop y que esté centrada en una función solo, para poder permitir que existan tantas ramas como hagan falta; cerrando su ciclo volviendo a mergearse con develop. Las únicas ramas que nunca se cierran son main y develop. Aunque podamos hacer esto con branches y el uso aprendido hasta ahora con Git, usar Git Flow ofrece ventajas de mayores complejidades. Permitiendo por ejemplo que él solo te pase la rama a develop e incluso la cierre llegado el caso.
+
+- `release`: Este es otra rama que nace de develop pero de cara a main, donde hacemos lo necesario ya de cara a pasarla a producción. Estando diseñada de tal forma que en el momento que la cerremos va a volcarse sobre la rama main creando un tag sobre esta y se cierra sobre la rama develop.
+
+- `hotfix`: Es una rama especial que se abre a partir de la rama main solo en caso de necesitar resolver un problema rápido y sin tener que depender de nada más. Porque así solucionamos el error justamente en la parte que está pegando el petardeo en producción. Y cuando lo cerramos Git Flow nos lo pasa directamente a main creando su tag y develop. Esto último para propagarlo al resto de ramas y versiones.
+
+## Ejemplo Gitflow
+
