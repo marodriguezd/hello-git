@@ -128,4 +128,13 @@ De cara a commitear o no los cambios se pueden checkear los ficheros que detecta
 Pero se queda bastante limitada en usabilidad, habiendo mejores alternativas.
 
 [GitKraken](https://www.gitkraken.com)
-Es una herramienta mucho más profesional y que utilizan más empresas. Siendo muchísisimo más potente y se ve claramente en todo lo que te sale de primeras en la interfaz.
+Es una herramienta mucho más profesional y que utilizan más empresas. Siendo muchísisimo más potente y se ve claramente en todo lo que te sale de primeras en la interfaz. Pero para trabajar con datos públicos va bien, pero con privados hay que pagar.
+
+[SourceTree](https://www.sourcetreeapp.com)
+Este nos permite trabajar con repositorios públicos y privados totalmente gratis, siendo la mejor alternativa de cara a no invertir dinero pero tener una gran potencia de uso hasta ahora.
+
+[GitFork](https://git-fork.com)
+Siendo esta otra herramienta muy buena también. Pero por lo que he visto tiene opciones de pago, siendo el más recomendado por la comunidad respecto a SourceTree. Pero SourceTree es 100% gratuito.
+
+## Git y GitHub "flow"
+
