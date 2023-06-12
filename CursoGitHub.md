@@ -113,3 +113,5 @@ Esto es bastante importante.
 ## Sincronización de un Fork en GitHub
 
 Desde el propio GitHub puedes sincronizar el fork comparando para ver lo cambios y en qué te afectaría o actualizando el branch directamente.
+
+## Markdown en GitHub
