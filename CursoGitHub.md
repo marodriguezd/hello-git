@@ -163,3 +163,8 @@ Luego simplemente siguiendo lo que dice el gist va todo fino, siendo sí o sí c
 - `git flow init`: Ponemos esto en la ruta donde tenemos el Git, para simplemente arrancarlo dejando todo por defecto.
 De ejemplo vamos a crear un flow sobre la feature de prueba que vamos a implementar.
 - `git flow start feature 2auth`: El 2auth es un ejemplo de cómo vamos a llamar a la implementación.
+Esto nos dará error, ya que el orden es muy importante.
+- `git flow feature start 2auth`: Esto nos creará la rama de la feature correspondiente.
+Creamos cosas y probamos en esa rama/feature. Una vez hechas todas las cosas con sus add, commit -m, etc. Vendría la hora de cerrarla y mergearla.
+- `git flow feature finish 2auth`: Esto directamente desencadena todo el flujo prestablecido de git flow. Para cerrar la rama y volcarla sobre develop.
+Todo esto también se puede hacer sobre interfaz gráfica como con la herramienta de Source Tree. Y todo esto es lo mismo que pasaría con los hotfixes y con los releases.
