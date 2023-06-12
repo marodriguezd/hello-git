@@ -80,4 +80,12 @@ Por si acaso podemos poner que por defecto lo que deseamos si hay algún problem
 
 ## "git push"
 
-- `git push`: Tras haber sincronizado todo en local con el git pull, etc. Para subirlo al repo
+- `git push`: Tras haber sincronizado todo en local con el git pull, etc. Para subirlo al repo. Si todo está ya bien sincronizado subirá sin problemas
+
+## "Fork" en GitHub
+
+Por ejemplo es clonando un repositorio que ya existe usándolo de base, trabajar encima de este añadiéndolo a un repositorio idéntico en nuestro GitHub. En resumen es un clon del repositorio original pero en nuestro repositorio. Pudiendo copiar todos los branchs que deseemos. El forkeo se hace desde el propio GitHub. Y es de este fork del que debemos hacer el git clone.
+
+- `git clone git@github.com:marodriguezd/hello-git-mouredev.git`: Aquí estamos haciendo de ejemplo que hemos forkeado el hello-git de mouredev a nuestro perfil/repo de GitHub, y es ese mismo el que hemos clonado en local.
+
+## Flujo colaborativo en GitHub
