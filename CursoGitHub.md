@@ -119,3 +119,4 @@ Vital tanto para la página de presentación de GitHub (la cual ya tengo bien pa
 
 ## Herramientas gráficas (GUI) para Git y GitHub
 
+[GitHub Desktop](https://desktop.github.com)
