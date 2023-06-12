@@ -119,4 +119,13 @@ Vital tanto para la página de presentación de GitHub (la cual ya tengo bien pa
 
 ## Herramientas gráficas (GUI) para Git y GitHub
 
+Seguir [esta guía](https://youtu.be/3GymExBkKjE?t=14437).
+
 [GitHub Desktop](https://desktop.github.com)
+Simplemente te permite de manera sencilla y visual ver todos los commits, repos, etc. 
+
+De cara a commitear o no los cambios se pueden checkear los ficheros que detecta automáticamente con las modificaciones.
+Pero se queda bastante limitada en usabilidad, habiendo mejores alternativas.
+
+[GitKraken](https://www.gitkraken.com)
+Es una herramienta mucho más profesional y que utilizan más empresas. Siendo muchísisimo más potente y se ve claramente en todo lo que te sale de primeras en la interfaz.
