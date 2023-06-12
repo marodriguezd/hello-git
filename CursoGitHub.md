@@ -106,3 +106,10 @@ Debiendo luego la persona que mantiene el repositorio hacer merge al pull reques
 
 ## Resolución de conlfictos en Pull Request
 
+La recomendación es solucionar todas estas cosas usando siempre GitHub ya que es su forma nativa e intuitiva. Pero solo a nivel de Pull Request, etc. El resto perfectamente lo podemos hacer por terminal de comandos como hasta ahora.
+Una vez resuelto el conflicto de la Pull Request en GitHub hay que commitear el merge. Y luego mergear el pull request una vez solucionado el conflicto.
+Esto es bastante importante.
+
+## Sincronización de un Fork en GitHub
+
+Desde el propio GitHub puedes sincronizar el fork comparando para ver lo cambios y en qué te afectaría o actualizando el branch directamente.
