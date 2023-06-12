@@ -89,3 +89,17 @@ Por ejemplo es clonando un repositorio que ya existe usándolo de base, trabajar
 - `git clone git@github.com:marodriguezd/hello-git-mouredev.git`: Aquí estamos haciendo de ejemplo que hemos forkeado el hello-git de mouredev a nuestro perfil/repo de GitHub, y es ese mismo el que hemos clonado en local.
 
 ## Flujo colaborativo en GitHub
+
+Ahora vamos a hacer modificaciones en el fork de mouredev por ejemplo:
+
+- `cd .\Desktop\hello-git-mouredev\`: Con esto accederíamos a nuestra ruta en local donde se encuentra el fork.
+Aquí vamos a crear y modificar un md:
+- `touch hello.md`: Con esto lo creamos.
+Lo hemos rellenado con un texto y nuestro usuario de GitHub para darle un añadido y diferenciarlo. Commiteando y pusheando todo.
+Desde GitHub nos deja sincronizar el fork con el original por si el dueño legítimo añade modificaciones. Esta sincronización es como una especie de merge entre usuarios distintos.
+
+## "Pull Request (PR)" en GitHub
+
+Desde GitHub, en nuestro fork podemos hacer una Pull Request, dando en Contribute y open pull request. Hemos hecho el envío del PR poniendo título y texto.
+El que recibe el PR puede hacer review de los cambios commentando, aprobando o pidiendo cambios. Siendo el base approve con un comentario.
+Debiendo luego la persona que mantiene el repositorio hacer merge al pull request. Primero lo aprueba y acepta y luego hace el merge para añadir las modificaciones al repositorio original.
