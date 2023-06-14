@@ -171,4 +171,24 @@ Todo esto también se puede hacer sobre interfaz gráfica como con la herramient
 - `git flow release start 1.0`: Importante poner el nombre de la versión, 1.0 en este caso.
 - `git flow release finish 1.0`: Lo mismo que con feature.
 
-## "git cherry-pick" y "git rebase
+## "git cherry-pick" y "git rebase"
+
+Su uso es de por ejemplo el desarrollo de algo muy concreto en una rama N y su desarrollo no acaba llegando a buen puerto. Dejando esa rama de lado mientras se sigue evolucionando el proyecto, pero en esa rama tenemos desarrollada una cosa útil que al final quedó abandonada junto al resto de la rama. Y queremos recuperar exclusivamente ese componente, pero no el resto realmente. Recuperar solamente el commit con ese componente en concreto por ejemplo. 
+
+- `git cherry-pick`: Posibilidad de irnos a un commit concreto y traer ese commit concreto a la rama que nosotros queramos.
+- `git cherry-pick identificadorCommit`: lo que haya justamente en ese commit me lo traigo a la rama actual desde donde hago el llamado.
+- `git cherry-pick --continue`: Para irlo haciendo de manera interactiva hacia delante desde el commit por si hay que ir añadiendo cosas, etc.
+- `git cherry-pick --abort`: Por si se nos va mucho la pinza y realmente queremos abortar la/s locura/s que estamos haciendo.
+
+- `git rebase`: Para traernos una rama a un punto concreto y hasta casi modificar el historial de commits. Pero es un comando delicado porque modifica el historial de los commits. Siendo útil para traer una rama perdida a la principal/actual si hiciera falta por ejemplo. Pero como la rama buena por delante de lo actual.
+- `git rebase ramaATraer`: Comando para traerse esa rama a la cabecera de lo actual.
+- `git rebase --comando`: Se puede hacer de manera interactiva también.
+
+En resumen:
+cherry-pick para traer un commit concreto a la rama actual al final, y rebase para pasar toda una rama al final de la rama actual y modificar el historial de commits.
+
+## GitHub Pages y Actions
+
+[GitHub Pages](https://pages.github.com) es la posibilidad de que lo que tengamos desplegado en un repositorio de GitHub pueda actuar de hosting. Por ejemplo usarlo de página web. Sirviendo para desplegar directamente desde el repositorio siguiendo lo que dice GitHub. Por ejemplo te creas un portfolio lo subes a repo y lo publicas desde ahí.
+
+[GitHub Actions](https://github.com/features/actions) Para crear automatizaciones en el código que tenemos en GitHub. Para desplegarlo, pasar tests, etc. Es una API a nuestra diposición para ir creando diferentes trabajos asociados a nuestro proyecto y que haga lo requerido. Tiene una parte gratuita y otra de pago.
