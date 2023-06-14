@@ -180,3 +180,9 @@ Su uso es de por ejemplo el desarrollo de algo muy concreto en una rama N y su d
 - `git cherry-pick --continue`: Para irlo haciendo de manera interactiva hacia delante desde el commit por si hay que ir añadiendo cosas, etc.
 - `git cherry-pick --abort`: Por si se nos va mucho la pinza y realmente queremos abortar la/s locura/s que estamos haciendo.
 
+- `git rebase`: Para traernos una rama a un punto concreto y hasta casi modificar el historial de commits. Pero es un comando delicado porque modifica el historial de los commits. Siendo útil para traer una rama perdida a la principal/actual si hiciera falta por ejemplo. Pero como la rama buena por delante de lo actual.
+- `git rebase ramaATraer`: Comando para traerse esa rama a la cabecera de lo actual.
+- `git rebase --comando`: Se puede hacer de manera interactiva también.
+
+En resumen:
+cherry-pick para traer un commit concreto a la rama actual al final, y rebase para pasar toda una rama al final de la rama actual y modificar el historial de commits.
