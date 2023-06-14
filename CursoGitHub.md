@@ -186,3 +186,9 @@ Su uso es de por ejemplo el desarrollo de algo muy concreto en una rama N y su d
 
 En resumen:
 cherry-pick para traer un commit concreto a la rama actual al final, y rebase para pasar toda una rama al final de la rama actual y modificar el historial de commits.
+
+## GitHub Pages y Actions
+
+[GitHub Pages](https://pages.github.com) es la posibilidad de que lo que tengamos desplegado en un repositorio de GitHub pueda actuar de hosting. Por ejemplo usarlo de página web. Sirviendo para desplegar directamente desde el repositorio siguiendo lo que dice GitHub. Por ejemplo te creas un portfolio lo subes a repo y lo publicas desde ahí.
+
+[GitHub Actions](https://github.com/features/actions) Para crear automatizaciones en el código que tenemos en GitHub. Para desplegarlo, pasar tests, etc. Es una API a nuestra diposición para ir creando diferentes trabajos asociados a nuestro proyecto y que haga lo requerido. Tiene una parte gratuita y otra de pago.
