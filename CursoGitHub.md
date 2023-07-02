@@ -66,6 +66,7 @@ Guardamos las cosas como siempre en local con sus commits y cosas para luego hac
 - `git pull`: Se descarga el historial y los cambios. Si no tienes ramas adicionales no daría ningún problema aparentemente.
 Por si acaso podemos poner que por defecto lo que deseamos si hay algún problema más allá es hacer un merge.
 - `git config pull.rebase false`: Para cambiar la acción por defecto
+* `git pull origin master --allow-unrelated-histories`: Por si da un error fatal referido a que no se puede mergear/pulear porque haya un commit que coincida en posición por ejemplo.
 
 ### Hasta aquí podemos trabajar con el local y hasta cierto punto con el público
 
